@@ -10,5 +10,10 @@ loop do
   idade = gets.chomp.to_i
 
   puts "Confirme seus dados:\nNome: #{nome} #{sobrenome}\nIdade: #{idade}"
-  
+
+  confirm = []
+  puts "Esta correto?\nDigite Sim ou Não:"
+  confirm.gets.chomp
+
+  break if confirm = "Não" || "Nao" || "não" || "nao" || "n"
 end
