@@ -11,9 +11,13 @@ loop do
 
   puts "Confirme seus dados:\nNome: #{nome} #{sobrenome}\nIdade: #{idade}"
 
-  confirm = []
   puts "Esta correto?\nDigite Sim ou Não:"
-  confirm.gets.chomp
-
+  confirm = gets.chomp
+  if confirm = "Sim" || "sim" || "s"
+    puts "Obrigado por se cadastrar!"
+  else
+    puts "Deseja recomeçar?"
+  end
+  confirm2 = gets.chomp
   break if confirm = "Não" || "Nao" || "não" || "nao" || "n"
 end
