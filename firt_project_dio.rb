@@ -9,15 +9,16 @@ loop do
   puts "Obrigado, #{nome} #{sobrenome}, agora digitre sua idade: "
   idade = gets.chomp.to_i
 
-  puts "Confirme seus dados:\nNome: #{nome} #{sobrenome}\nIdade: #{idade}"
+  puts "\nConfirme seus dados:\nNome: #{nome} #{sobrenome}\nIdade: #{idade}"
 
-  puts "Esta correto?\nDigite Sim ou Não:"
+  puts "\nEsta correto?\nDigite Sim ou Não:"
   confirm = gets.chomp
-    if confirm == "Sim" || "sim" || "s"
-      puts "Obrigado por se cadastrar!"
-    else
-      puts "Deseja recomeçar?\nDigite Sim ou Não:"
-   end
-  confirm2 = gets.chomp
-  break if confirm2 == "Não" || "Nao" || "não" || "nao" || "n"
+  if confirm == "Sim" || confirm ==  "sim" || confirm == "s"
+    puts "\nObrigado por se cadastrar!"
+    break
+  elsif confirm.downcase == "não" || confirm.downcase ==  "nao" || confirm.downcase ==  "n"
+    puts "\n\nDeseja recomeçar?\nDigite Sim ou Não:"
+    confirm2 = gets.chomp
+    break if confirm2.downcase == "não" || confirm2.downcase == "nao" || confirm2.downcase == "n"
+  end
 end
