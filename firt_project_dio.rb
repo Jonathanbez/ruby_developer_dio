@@ -16,8 +16,8 @@ loop do
   if confirm = "Sim" || "sim" || "s"
     puts "Obrigado por se cadastrar!"
   else
-    puts "Deseja recomeçar?"
+    puts "Deseja recomeçar?\nDigite Sim ou Não:"
   end
   confirm2 = gets.chomp
-  break if confirm = "Não" || "Nao" || "não" || "nao" || "n"
+  break if confirm2 = "Não" || "Nao" || "não" || "nao" || "n"
 end
