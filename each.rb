@@ -1,8 +1,8 @@
-nomes = []
+nomes = ["Jonathan", "Maria", "Amanda", "Neide"]
 
 nomes.each do |nome|
-  nomes.push("Jonathan", "Maria", "Amanda", "Neide")
+  puts nome
 end
 
-puts nomes
+
 
