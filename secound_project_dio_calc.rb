@@ -5,7 +5,8 @@ system "clear"
 puts "O que deseja calcular?\nEscolha uma das opções:\n1.Adição, 2.Subtração, 3.Multiplicação, 4.Divisão ou 0.Sair\n"
 
 loop do
-  case = option = gets.chomp.to_i
+  option = gets.chomp.to_i
+  case = option
     when option == 1
         print "Começando com a Adição\n"
         print "Digite o promeiro número inteiro (adição): "
