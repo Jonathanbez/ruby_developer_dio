@@ -3,9 +3,11 @@
 system "clear"
 
 puts "O que deseja calcular?\nEscolha uma das opções:\n1.Adição, 2.Subtração, 3.Multiplicação, 4.Divisão ou 0.Sair\n"
-puts "Digite uma opção:"
+puts "\nDigite uma opção:"
 loop do
   option = gets.chomp.to_i
+
+
   case option
     when option = 1
         print "1.Adição\n"
@@ -15,6 +17,7 @@ loop do
         add2 = gets.chomp.to_i
         addition = add1 + add2
         puts "O resultado da adição é #{addition}"
+        puts "\nDeseja tentar novamente? Digite uma opção ou 0 para Sair:"
     when option = 2
         print "2.Subtração\n"
         print "Digite o minuendo inteiro(subtração): "
@@ -23,6 +26,7 @@ loop do
         sub2 = gets.chomp.to_i
         subtraction = sub1 - sub2
         puts "O resultado da subtração é #{subtraction}"
+        puts "\nDeseja tentar novamente? Digite uma opção ou 0 para Sair:"
     when option = 3
         print "3.Multiplicação\n"
         print "Digite o primeiro fator, número inteiro (multiplicação): "
@@ -31,6 +35,7 @@ loop do
         mult2 = gets.chomp.to_i
         multiplication = mult1 * mult2
         puts "O resultado da multiplicação, o produto é #{multiplication}"
+        puts "\nDeseja tentar novamente? Digite uma opção ou 0 para Sair:"
     when option = 4
         print "4.Divisão\n"
         print "Digite o dividendo (divisão):"
@@ -39,6 +44,7 @@ loop do
         div2 = gets.chomp.to_f
         division = div1 / div2
         puts "O resultado da divisão é #{division}"
+        puts "\nDeseja tentar novamente? Digite uma opção ou 0 para Sair:"
     when option = 0
       break
   end
