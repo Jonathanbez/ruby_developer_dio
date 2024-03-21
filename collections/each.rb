@@ -6,7 +6,7 @@ sobrenome = ['Aparecida Vitorino', 'Bezerra Barros']
 
 n_completo = {}
 nomes.each_with_index do |nome, index|
-  hash[nome] = sobrenomes[index]
+  n_completo[nome] = sobrenome.reverse[index]
 end
 puts n_completo
 
