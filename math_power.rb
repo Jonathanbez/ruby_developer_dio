@@ -15,4 +15,4 @@ array.each do |p|
   p ** 3
   puts p
 end
-puts array
+
