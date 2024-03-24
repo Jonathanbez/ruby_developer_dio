@@ -15,4 +15,4 @@ power = array.map! do |p|
   p ** 3
 end
 
-puts "\nResultado:\n1. Potenciação: #{array[0]}\n2. Potenciação: #{array[1]}\n3.Potenciação: #{array[2]}"
+puts "\nResultado:\n1. Potenciação: #{array[0]}\n2. Potenciação: #{array[1]}\n3. Potenciação: #{array[2]}"
