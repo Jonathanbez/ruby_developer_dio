@@ -1,5 +1,6 @@
 require 'cpf_cnpj'
 
+system 'clear'
 puts "VERIFICADOR DE CPF\n\n"
 def validate_cpf(cpf)
     if CPF.valid?(cpf, strict: true)
