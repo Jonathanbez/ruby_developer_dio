@@ -11,4 +11,4 @@ end
 
 puts "Insira um CPF valido: "
 cpf = gets.chomp
-puts validate_cpf(cpf)
+validate_cpf(cpf)
