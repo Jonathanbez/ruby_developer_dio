@@ -14,4 +14,6 @@ class Gato < Animal
 end
 
 gato = Gato.new
-puts gato.pula gato.miar gato.dormir
+puts gato.pula
+p gato.miar
+print gato.dormir
