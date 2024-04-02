@@ -17,3 +17,4 @@ gato = Gato.new
 puts gato.pula
 puts gato.miar
 print  gato.dormir
+p gato.dormir
