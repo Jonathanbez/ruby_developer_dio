@@ -15,5 +15,5 @@ end
 
 gato = Gato.new
 puts gato.pula
-p gato.miar
-p gato.dormir
+puts gato.miar
+print  gato.dormir
