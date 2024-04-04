@@ -8,4 +8,4 @@ jonathan.idade = '29'
 jonathan.cidade = 'São Paulo'
 jonathan.curso = 'Ruby Developer (DIO)'
 
-puts jonathan.nome, jonathan.idade, jonathan.cidade, jonathan.curos
+puts jonathan.nome, jonathan.idade, jonathan.cidade, jonathan.curso
