@@ -3,7 +3,7 @@ class Magazine
     @product = product
     @price = price
   end
-  def comprar
-    puts "Você comprou o produto #{@product} no valor de #{@price}"
+  def buy
+    puts "Você comprou o produto #{@product} no valor de R$ #{@price}"
   end
 end
