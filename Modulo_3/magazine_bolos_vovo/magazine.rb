@@ -1,0 +1,9 @@
+class Magazine
+  def initialize (product, price)
+    @procduct = product
+    @price = price
+  end
+  def comprar
+    puts "Você comprou o produto #{@product} no valor de #{@price}"
+  end
+end
