@@ -1,6 +1,6 @@
 class Magazine
   def initialize (product, price)
-    @procduct = product
+    @product = product
     @price = price
   end
   def comprar
