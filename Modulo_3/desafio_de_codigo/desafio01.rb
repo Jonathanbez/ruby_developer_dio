@@ -11,3 +11,17 @@ p array001
 array002 = []
 array002.push(array03[0] + array04[0], array03[2] + array04[2], array03[4] + array04[4])
 p array002
+
+p "Jonathan Bezerra Barros 29 anos".split(',').map(&:to_i)
+array1 = gets.chomp.split(',').map(&:to_i)
+array2 = gets.chomp.split(',').map(&:to_i)
+
+sum_array = []
+counter = 0
+
+until counter >= array1.length do
+  sum_array << array1[counter] + array2[counter]
+  counter += 2
+end
+
+puts sum_array.join(",")
