@@ -1,7 +1,6 @@
 offset = gets.to_i
 limit = gets.to_i
 
-
 apiReturn = [
  {title: "Omelete",
    ingredients: "Ovo, salsinha, sal, queijo",
@@ -28,9 +27,6 @@ apiReturn = [
    recipe: "Misture o leite condensado, a manteiga e o leite e leve ao fogo baixo e mexendo sem parar. Quando chegar ao ponto soltando da panela acrescente as nozes trituradas."
  }
 ]
-
-#TODO: Print no console o título, os ingredientes e a receita de acordo
-#com as entradas
 
 if limit == 0 then
  puts apiReturn[offset][:title]
