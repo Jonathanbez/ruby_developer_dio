@@ -9,4 +9,4 @@ if impostoCobrado == 1 then
 end
 
 valorTotal = valorTotal.to_s.chop.to_i if valorTotal.to_s[-1] == "0"
-puts "O preço do gás nesse mês é de R$#{valorTotal}"
+puts "O preço do gás nesse mês é de R$ #{valorTotal}"
