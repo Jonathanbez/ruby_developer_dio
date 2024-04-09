@@ -23,7 +23,7 @@ apiReturn = [
    recipe: "Misture o ovo com a carne moída, o sal, o oregano. Acrescente o alho e a cebola refogados. Modele os bifes e leve a frigideira."
  },
  {title: "Camafel Simples",
-   ingredients: "Leite condensado, manteiga, leite, nozes",
+   ingredients: "Leite condensado, manteiga, leite, nozes, maizena",
    recipe: "Misture o leite condensado, a manteiga e o leite e leve ao fogo baixo e mexendo sem parar. Quando chegar ao ponto soltando da panela acrescente as nozes trituradas."
  }
 ]
